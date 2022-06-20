@@ -4,3 +4,9 @@ printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wy
 var playerMove;
 computerMove = 'papier';
 printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to nozyce, to wygrywasz!');
+var randomNumber;
+randomNumber = Math.floor(Math.random() * 3 + 1);
+printMessage('Wylosowana liczba to: ' + randomNumber);
+var randomNumber;
+randomNumber = Math.floor(Math.random() * 8 + 12);
+printMessage('Wylosowana liczba to: ' + randomNumber);
