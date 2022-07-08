@@ -1,8 +1,8 @@
-var buttonTest;
-var buttonRock;
-var buttonPaper;
-var buttonScissors;
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+let buttonTest;
+let buttonRock;
+let buttonPaper;
+let buttonScissors;
+let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
 
 buttonTest = document.getElementById('button-test');
